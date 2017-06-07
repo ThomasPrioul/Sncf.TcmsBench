@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sncf.TcmsBench.Nat", "Sncf.TcmsBench.Nat\Sncf.TcmsBench.Nat.csproj", "{C604BEF3-3F85-41EE-AA61-A6B8C01AD9C5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sncf.TcmsBench", "Sncf.TcmsBench\Sncf.TcmsBench.shproj", "{CCE59B3A-0547-4990-A188-4273D52220D3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sncf", "Sncf\Sncf.shproj", "{0BA489FD-6DCB-405C-AD97-C5303A3B9C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sncf.Wpf", "Sncf.Wpf\Sncf.Wpf.csproj", "{A3EB5517-A608-47C6-B1A0-D0DCABDF0948}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Sncf\Sncf.projitems*{0ba489fd-6dcb-405c-ad97-c5303a3b9c52}*SharedItemsImports = 13
+		Sncf.TcmsBench\Sncf.TcmsBench.projitems*{c604bef3-3f85-41ee-aa61-a6b8c01ad9c5}*SharedItemsImports = 4
+		Sncf\Sncf.projitems*{c604bef3-3f85-41ee-aa61-a6b8c01ad9c5}*SharedItemsImports = 4
+		Sncf.TcmsBench\Sncf.TcmsBench.projitems*{cce59b3a-0547-4990-a188-4273d52220d3}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C604BEF3-3F85-41EE-AA61-A6B8C01AD9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C604BEF3-3F85-41EE-AA61-A6B8C01AD9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C604BEF3-3F85-41EE-AA61-A6B8C01AD9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C604BEF3-3F85-41EE-AA61-A6B8C01AD9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EB5517-A608-47C6-B1A0-D0DCABDF0948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EB5517-A608-47C6-B1A0-D0DCABDF0948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EB5517-A608-47C6-B1A0-D0DCABDF0948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EB5517-A608-47C6-B1A0-D0DCABDF0948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
