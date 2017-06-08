@@ -10,16 +10,19 @@ namespace Sncf.TcmsBench.ViewModel
         public static ISimpleIoc Ioc { get; } = SimpleIoc.Default;
 
         static ViewModelLocator instance;
-        public static ViewModelLocator Instance => instance ?? (instance = new ViewModelLocator());
+        public static ViewModelLocator Instance => instance ?? new ViewModelLocator();
 
         static ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => Ioc);
-            Ioc.Register<ILogFactory, LogFactory>();
+            Ioc.Register<ILogFactory, Log4NetFactory>();
             Ioc.Register<MainViewModel>();
         }
 
-        ViewModelLocator() { }
+        public ViewModelLocator()
+        {
+            instance = this;
+        }
 
         public MainViewModel Main => Ioc.GetInstance<MainViewModel>();
     }

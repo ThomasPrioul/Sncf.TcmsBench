@@ -11,7 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Logging\ILog.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logging\ILogFactory.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Logging\LogFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logging\Log4NetFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Command\Command.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Command\ICommand.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelBase.cs" />

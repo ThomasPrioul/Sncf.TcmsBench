@@ -25,7 +25,7 @@ namespace Sncf.TcmsBench.ViewModel
 
         #endregion
 
-        public MainViewModel(Logging.ILogFactory logFactory) : base(logFactory.GetLogger())
+        public MainViewModel(Logging.ILogFactory logFactory) : base(logFactory.GetLogger(typeof(MainViewModel)))
         {
             TestCommand = new RelayCommand(TestExecuted);
             TestTypedCommand = new Command<string>(TestTypedExecuted);
